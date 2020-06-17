@@ -22,7 +22,7 @@ ext_modules = [
 ]
 
 setup(
-    name='pycocotools-fix',
+    name='pycocotools-fix-test',
     author='Junjue Wang',
     author_email='junjuew@cs.cmu.edu',
     description='Fixed pycocotools package installation error of numpy or cython not installed',
