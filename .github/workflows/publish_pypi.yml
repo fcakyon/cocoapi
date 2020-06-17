@@ -27,4 +27,4 @@ jobs:
         cp README.md PythonAPI
         cd PythonAPI
         python setup.py sdist bdist_wheel
-        twine upload dist/*
+        twine --verbose upload dist/*
